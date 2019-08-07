@@ -1,4 +1,3 @@
-
 public class CyclomaticComplexity {
 
  public void complex() {
@@ -18,39 +17,52 @@ public class CyclomaticComplexity {
            if (z == 50) {
             z = 51;
            } else {
-             for (i = 0; i < 1000; i++) {
-   if (i < 100) {
-    for (x = 0; x < 1000; x++) {
-     if (x < 100) {
-      if (x == 50) {
-       x = 51;
-      } else {
-        y = 12312313;
-      }
+            for (i = 0; i < 1000; i++) {
+             if (i < 100) {
+              for (x = 0; x < 1000; x++) {
+               if (x < 100) {
+                if (x == 50) {
+                 x = 51;
+                } else {
+                 y = 12312313;
+                }
 
-     }
-    else {
-     int j = 10100;
-    }
-   }
-  }
- }
+               } else {
+                int j = 10100;
+                for (i = 0; i < 1000; i++) {
+                 if (i < 100) {
+                  for (x = 0; x < 1000; x++) {
+                   if (x < 100) {
+                    if (x == 50) {
+                     x = 51;
+                    } else {
+                     y = 12312313;
+                    }
+
+                   } else {
+                    j = 10100;
+                   }
+                  }
+                 }
+                }
+               }
+              }
+             }
+            }
            }
 
+          } else {
+           int l = 10100;
           }
-         else {
-          int l = 10100;
          }
-        }
         }
        }
       }
 
+     } else {
+      int j = 10100;
+      gettingComplex();
      }
-     else {
-     int j = 10100;
-     gettingComplex();
-    }
     }
    }
   }
@@ -67,13 +79,12 @@ public class CyclomaticComplexity {
        int y = 12312313;
       }
 
+     } else {
+      int j = 10100;
      }
-    else {
-     int j = 10100;
     }
    }
   }
- }
  }
 
  public void gettingEvenMoreComplex() {
@@ -87,13 +98,12 @@ public class CyclomaticComplexity {
        int y = 12312313;
       }
 
+     } else {
+      int j = 10100;
      }
-    else {
-     int j = 10100;
     }
    }
   }
- }
  }
 
 
@@ -108,13 +118,12 @@ public class CyclomaticComplexity {
        int y = 12312313;
       }
 
+     } else {
+      int j = 10100;
      }
-    else {
-     int j = 10100;
     }
    }
   }
- }
  }
  //Second commit
  //Thirth commit 
