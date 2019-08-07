@@ -18,7 +18,23 @@ public class CyclomaticComplexity {
            if (z == 50) {
             z = 51;
            } else {
-            int w = 12312313;
+             for (i = 0; i < 1000; i++) {
+   if (i < 100) {
+    for (x = 0; x < 1000; x++) {
+     if (x < 100) {
+      if (x == 50) {
+       x = 51;
+      } else {
+        y = 12312313;
+      }
+
+     }
+    else {
+     int j = 10100;
+    }
+   }
+  }
+ }
            }
 
           }
