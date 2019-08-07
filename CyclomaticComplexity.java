@@ -20,4 +20,6 @@ public class CyclomaticComplexity {
             }
         }
     }
+
+    //Second commit
 }
